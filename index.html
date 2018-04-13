@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Google Map API</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="API, Google Map.">
+    <meta name="description" content="This a project to test and play with different Apis;)">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="header">
+        <h1>Google Map API</h1>
+        <p>Application Programming Interface</p>
+
+    </div>
+    <!-- contact us -->
+    <div id="Contact" class="tabcontent">
+        <div class="container">
+            <div style="text-align:center">
+                <h2>Contact Us</h2>
+                <p>Use the form below to leave us a message. Old-fashioned phone calls work too.
+                    <br> Ring:0723102801</p>
+                <div class="chip">
+                    <img src="Images/avatar.jpg" alt="Person" width="96" height="96"> M Ikhlaq Siddiqui
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div id="map" style="width:100%;height:500px"></div>
+                </div>
+                <div class="column">
+                    <form action="/action_page.php">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; IKHLAQ 2018-04</p>
+    </footer>
+
+    <!-- Google map link-->
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA6XJK6hEBabuQgRFZ688iJRUFl-mh64uA&callback=initMap">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="ajax.js"></script>
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>
