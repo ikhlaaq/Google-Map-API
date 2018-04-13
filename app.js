@@ -12,6 +12,6 @@ function initMap() {
         map: map
     });
 }
-$(document).ready(function(){
-    initialize();
-  });
+setTimeout(function() {
+    //code for initializing the google map
+  }, 1000);
