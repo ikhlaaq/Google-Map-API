@@ -1,6 +1,3 @@
-$(document).on("pageshow","#map",function(){
-  initialize();
-});
 //Google Map API
 
 function initMap() {
