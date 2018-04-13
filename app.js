@@ -2,8 +2,6 @@ $(document).on("pageshow","#map",function(){
   initialize();
 });
 //Google Map API
-setTimeout(function() {
-  }, 1000);
 
 function initMap() {
     var uluru = { lat: 56.0381844, lng: 12.6963136 };
